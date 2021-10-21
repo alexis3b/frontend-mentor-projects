@@ -1,5 +1,6 @@
 :root {
   box-sizing: border-box;
+  font-size: 1rem;
   --clr-primary: hsl(31, 77%, 52%);
   --clr-secondary: hsl(184, 100%, 22%);
   --clr-tertiary: hsl(179, 100%, 13%);
@@ -20,7 +21,6 @@ p {
 
 body {
   font-family: "Lexend Deca", sans-serif;
-  font-size: 0.9375rem;
   margin: 0;
   color: var(--clr-text);
   background: var(--clr--background);
@@ -31,7 +31,8 @@ body {
 //}
 
 .container {
-  max-width: 920px;
+  font-size: inherit;
+  max-width: 57.5em;
 }
 
 .item {
@@ -39,6 +40,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 3em;
+  font-size: 0.9375rem;
   color: #ffffff;
 
   &--1 {
@@ -77,6 +79,7 @@ img {
   background: var(--clr--background);
   border: 2px solid var(--clr--background);
   border-radius: 100px;
+  transition: all 0.2s;
 
   &--1 {
     color: var(--clr-primary);
@@ -110,6 +113,6 @@ img {
     overflow: auto;
     margin: 10.6875rem auto;
     border-radius: 8px;
-    min-height: 61.5vh;
+    min-height: 31.25rem;
   }
 }
