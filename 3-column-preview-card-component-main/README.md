@@ -18,4 +18,4 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/aborron/frontend-mentor-projects/tree/main/3-column-preview-card-component-main](https://github.com/aborron/frontend-mentor-projects/tree/main/3-column-preview-card-component-main)
-- Live Site URL: [https://angry-pasteur-08be83.netlify.app/](https://angry-pasteur-08be83.netlify.app/)
+- Live Site URL: [https://frosty-kepler-fad9fa.netlify.app/](https://frosty-kepler-fad9fa.netlify.app/)
