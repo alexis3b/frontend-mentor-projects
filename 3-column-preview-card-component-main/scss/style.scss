@@ -61,6 +61,7 @@ img {
   font-size: 2.5rem;
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
+  color: var(--clr--background);
 }
 
 .paragraph {
@@ -73,8 +74,8 @@ img {
   text-align: center;
   padding: 0.8em 2em;
   text-decoration: none;
-  background: #ffffff;
-  border: 2px solid #ffffff;
+  background: var(--clr--background);
+  border: 2px solid var(--clr--background);
   border-radius: 100px;
 
   &--1 {
@@ -89,8 +90,18 @@ img {
 }
 
 .button-link:hover {
-  color: #ffffff;
+  color: var(--clr--background);
   background: transparent;
+}
+
+.attribution {
+  color: #979797;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.attribution a {
+  color: #e38826;
 }
 
 @media (min-width: 48em) {
