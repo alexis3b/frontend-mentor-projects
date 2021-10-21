@@ -31,8 +31,16 @@ body {
 //}
 
 .container {
+  display: flex;
+  justify-content: center;
+}
+
+.component {
+  margin: 11% 1.5rem;
+  border-radius: 8px;
   font-size: inherit;
   max-width: 57.5em;
+  overflow: auto;
 }
 
 .item {
@@ -107,12 +115,19 @@ img {
   color: #e38826;
 }
 
-@media (min-width: 48em) {
-  .container {
+@media (min-width: 50.625rem) {
+  .component {
     display: flex;
-    overflow: auto;
-    margin: 10.6875rem auto;
-    border-radius: 8px;
+    min-height: 61.5vh;
+  }
+
+  .content {
+    margin-bottom: 1.3rem;
+  }
+}
+
+@media (min-height: 50.8125rem) {
+  .component {
     min-height: 31.25rem;
   }
 }
