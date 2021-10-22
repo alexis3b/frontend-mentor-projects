@@ -98,7 +98,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
-  //overflow-y: hidden;
 }
 
 .card {
@@ -114,7 +113,7 @@ body {
   }
 
   &__content {
-    padding: 3.5em;
+    padding: 2.5em 3.5em;
     text-align: center;
   }
 }
@@ -205,6 +204,11 @@ p {
   .plan {
     &__link {
       font-size: 0.875rem;
+    }
+  }
+  .card {
+    &__content {
+      --flow-space: 1.5em;
     }
   }
 }
