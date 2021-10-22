@@ -86,7 +86,7 @@ select {
 }
 
 body {
-  margin: 4em auto;
+  margin: 8% auto;
   padding: 0 1.5em;
   font-size: 0.875rem;
   color: var(--clr-text);
@@ -101,7 +101,7 @@ body {
 .card {
   max-width: 28.125rem;
   background-color: #ffffff;
-  margin: 0 auto;
+  margin: 6em auto 0 auto;
   border-radius: 20px;
   overflow: auto;
   box-shadow: 0px 12px 40px 1px rgba(13, 48, 189, 0.2);
@@ -185,6 +185,12 @@ p {
 
 .cancel:hover {
   color: var(--clr-heading);
+}
+
+@media (min-width: 48em) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
